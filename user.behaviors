@@ -52,9 +52,11 @@
   [:app :lt.objs.sidebar.workspace/workspace.open-on-start]
   [:app :lt.objs.app/run-on-init [:window.maximize]]
 
+  [:editor.clj :lt.plugins.clojure/use-local-hints]
   [:editor.clj :lt.plugins.auto-complete/init]
   [:editor.clj :lt.plugins.auto-complete/show-hint]
   [:editor.clj :lt.plugins.auto-complete/textual-hints]
   [:editor.clj :lt.plugins.auto-complete/auto-show-on-input]
   [:editor.keys.hinting.active "-enter" :passthrough]
+  [:editor.clj :-lt.plugins.cljrefactor.completer/use-local-hints]
 ]
