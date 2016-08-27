@@ -50,6 +50,7 @@
   [:editor :lt.objs.editor/tab-settings false 2 2]
 
   [:app :lt.objs.sidebar.workspace/workspace.open-on-start]
+  [:app :lt.objs.app/run-on-init [:window.maximize]]
 
   [:editor.clj :lt.plugins.auto-complete/init]
   [:editor.clj :lt.plugins.auto-complete/show-hint]

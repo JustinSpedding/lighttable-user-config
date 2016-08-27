@@ -9,9 +9,11 @@
  "ClojureInstarepl" "0.3.0",
  "HTML" "0.1.0",
  "Javascript" "0.2.0",
+ "Linting" "0.0.5",
  "Paredit" "0.0.4",
  "Python" "0.0.7",
  "Rainbow" "0.0.8",
- "Vim" "0.2.1"},
+ "clj-light-refactor" "0.1.6",
+ "lt-clojure-linter" "0.0.6"},
  :author "TODO",
  :name "User"}
