@@ -27,7 +27,7 @@
   [:editor "pmeta-0" :paredit.grow.right]
   [:editor "pmeta-9" :paredit.grow.left]
 
-  [:editor "pmeta-r" :lt.plugins.cljrefactor.usages/replace-symbol]
+  [:editor "f2" :lt.plugins.cljrefactor.usages/replace-symbol]
   [:editor "pmeta-t" :lt.plugins.cljrefactor.testing/test-all]
 
   ;; To subtract a keybinding, prefix the key with '-'  e.g.
